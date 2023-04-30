@@ -1,0 +1,16 @@
+/* primera forma de agregar estilos por la etiqueta selector de elementos */
+p {  
+  color: blue;
+  font-size: 40px;
+}
+
+/* class segunda forma por la clase se le agrega un atributo class en la etiqueta o lugar donde quieres cambiar el estilo*/
+.parrafo {
+  color: pink;
+}
+
+/* ID  tercera forma por el id*/
+#texto {
+  color:aqua;
+  font-size: 24px;
+}
