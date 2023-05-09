@@ -1,0 +1,31 @@
+.main-nav {
+  margin-top: 10px;
+  list-style: none;
+  padding-left: 0px;
+  background-color: turquoise;
+  }
+
+  .main-nav__item {
+  display: inline-block; /* Para colocar los items en horizontal */
+}
+
+.main-nav__item a { /* en este contenedor todos los que estan en la etiqueta <a se les va aplicar este estilo home cursos instructores blog*/
+  color: white;
+  padding: 5px;
+  border-radius: 2px; /*es para redondear las esquinas de cada caja*/
+  text-decoration: none;
+}
+
+/*Pseudoclases*/
+.main-nav__item a:hover { /*Para cambiar el color de la fuente al colocar la manito arriba de la fuente efecto hover*/
+  color: blue;
+}
+.main-nav__item a:active {
+  color: pink;
+}
+
+/*Pseudoelementos*/
+.main-nav__item a::after { /*afer quiere decir despues de este elemento agregale este contenido*/
+  content: " | " ; 
+
+}
