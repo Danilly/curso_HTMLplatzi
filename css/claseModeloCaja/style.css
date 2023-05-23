@@ -1,0 +1,13 @@
+/*Reinicia*/
+*{
+  box-sizing: border-box; /* este hace que se calcule automaticamente el tamaño del elemento con el paddin y el border para que de el calculo de los px que queremos y no se tengan que sumar el padding y el border*/ 
+  padding: 0%;
+  margin: 0%; /* si se le agrega margin este si va a generar un excedente porque el margin no lo va a recalcular solo recalculan el padding y el border, si agregamos el margin hay que sumarle despues y podemos generar que hagamos scroll y eso hay que evitarlo*/
+}
+
+main {
+  width: 100%;
+  height: 500px;
+  border: 10px solid grey;
+  padding: 20px 35px;
+  }
