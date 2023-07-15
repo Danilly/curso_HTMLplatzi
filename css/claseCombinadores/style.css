@@ -1,0 +1,4 @@
+/* Combinador adyacente o hermano adyacente para contenedores con muchas etiquetas o etiquetas hermanas nos ayuda a ser mas especificos sin usar tantas clases */
+h2 + p {
+   color: deeppink; 
+}
