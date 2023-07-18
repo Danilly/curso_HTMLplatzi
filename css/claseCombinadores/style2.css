@@ -1,0 +1,11 @@
+/*Combinador Child (hijo directo)
+
+div > p {
+  color: blueviolet;
+}
+*/
+/*Combinador descendiente es el mas habitual y general*/
+
+div p {
+  color:chocolate;
+}
