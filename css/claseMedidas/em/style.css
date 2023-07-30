@@ -1,0 +1,4 @@
+/* Llamamos ala clase*/
+.text-container {
+  font-size: 1.5em; /*em es un acronimo de elemento y toma el tamaño de fuente que tenga el padre directo*/
+}
