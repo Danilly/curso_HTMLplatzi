@@ -1,0 +1,14 @@
+* {  /* estructura final para nuestro css siempre tiene que estar en todos los archivos de css*/
+  box-sizing: border-box;
+  margin: 0;  
+  padding: 0;  
+}
+html {
+  font-size: 62.5%; /* estructura final siempre debe estar en los archivos css*/
+}
+p {
+  font-size: 1.6rem; 
+}
+main div {
+  font-size: 1.6rem;
+}
